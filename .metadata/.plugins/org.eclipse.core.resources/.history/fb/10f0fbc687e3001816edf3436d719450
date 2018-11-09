@@ -1,0 +1,7 @@
+# language: pt
+
+Funcionalidade: Aprender Cucumber
+
+Dado que criei o arquivo corretamento
+Quando executá-lo
+Então a especificação deve finalizar com sucesso

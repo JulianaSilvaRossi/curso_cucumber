@@ -1,0 +1,24 @@
+package br.entidades;
+
+import java.util.*;
+
+public class NotaAluguel {
+	
+	private int preco;
+	private Date dataEntrega;
+
+	public int getPreco() {
+		return preco;
+	}
+
+	public void setPreco(int preco) {
+		this.preco = preco;
+	}
+
+	public Date getDataEntrega() {
+		return dataEntrega;
+	}
+	
+	
+
+}

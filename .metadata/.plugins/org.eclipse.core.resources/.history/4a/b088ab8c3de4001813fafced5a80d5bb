@@ -1,0 +1,10 @@
+package br.servicos;
+
+import br.entidades.Filme;
+
+public class AluguelService {
+
+	public void alugar(Filme filme){
+		
+	}
+}

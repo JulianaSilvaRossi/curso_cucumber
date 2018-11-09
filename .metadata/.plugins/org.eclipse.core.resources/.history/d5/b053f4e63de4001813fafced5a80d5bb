@@ -1,0 +1,11 @@
+package br.servicos;
+
+import br.entidades.Filme;
+import br.entidades.NotaAluguel;
+
+public class AluguelService {
+
+	public NotaAluguel alugar(Filme filme){
+		
+	}
+}

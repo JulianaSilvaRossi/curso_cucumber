@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberCurso" tests="10" started="10" failures="2" errors="0" ignored="0">
+  <testsuite name="br.runners.Runner" time="0.028">
+    <testsuite name="Funcionalidade: Alugar Filme" time="0.028">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.008">
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="E que o preço do aluguel seja R$ 3" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.003"/>
+        <testcase name="Então o preço do aluguel será R$ 3" classname="Cenário: Alugar filme com sucesso" time="0.002"/>
+        <testcase name="E a data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.001"/>
+      </testsuite>
+      <testsuite name="Cenário: Não deve alugar filme sem estoque" time="0.0" incomplete="true">
+        <failure>java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;-1&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at br.steps.AlugarFilmeSteps.oEstoqueDoFilmeSeráUnidade(AlugarFilmeSteps.java:59)&#13;
+	at ✽.E o estoque do filme será 0 unidade(src/test/resources/features/locadora.feature:22)&#13;
+&#13;
+</failure>
+        <testcase name="Dado um filme com estoque de 0 unidades" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+        <testcase name="Quando alugar" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+        <testcase name="Então não será possível por falta de estoque" classname="Cenário: Não deve alugar filme sem estoque" time="0.0"/>
+        <testcase name="E o estoque do filme será 0 unidade" classname="Cenário: Não deve alugar filme sem estoque" time="0.0">
+          <failure>java.lang.AssertionError: expected:&lt;0&gt; but was:&lt;-1&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:645)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:631)&#13;
+	at br.steps.AlugarFilmeSteps.oEstoqueDoFilmeSeráUnidade(AlugarFilmeSteps.java:59)&#13;
+	at ✽.E o estoque do filme será 0 unidade(src/test/resources/features/locadora.feature:22)&#13;
+&#13;
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

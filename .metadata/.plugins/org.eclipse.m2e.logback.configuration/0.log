@@ -1033,3 +1033,4 @@ Caused by: org.apache.http.client.HttpResponseException: Service Unavailable (50
 2018-11-09 13:43:57,690 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-11-09 13:43:57,691 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-11-09 13:43:57,691 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-11-09 13:43:57,692 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

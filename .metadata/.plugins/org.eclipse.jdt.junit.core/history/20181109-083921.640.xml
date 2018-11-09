@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberCurso" tests="12" started="12" failures="2" errors="0" ignored="0">
+  <testsuite name="Runner" time="0.039">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.039">
+      <testsuite name="Cenário: Deve executar especificação" time="0.005">
+        <testcase name="Dado que criei o arquivo corretamento" classname="Cenário: Deve executar especificação" time="0.004"/>
+        <testcase name="Quando executá-lo" classname="Cenário: Deve executar especificação" time="0.0"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.001"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contador" time="0.0">
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar em 3" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Então o valor do contador será 18" classname="Cenário: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contador" time="0.0">
+        <testcase name="Dado que o valor do contador é 123" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar em 35" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Então o valor do contador será 158" classname="Cenário: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega" time="0.0" incomplete="true">
+        <failure>java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;07/05/2018&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at AprenderCucumber.aEntregaSerraEfetuadaEm(AprenderCucumber.java:67)&#13;
+	at ✽.Então a entrega serra efetuada em 07/04/2018(aprender_cucumber.feature:27)&#13;
+&#13;
+</failure>
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Quando a entega atrasar em 2 dias" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Então a entrega serra efetuada em 07/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0">
+          <failure>java.lang.AssertionError: expected:&lt;7&gt; but was:&lt;07/05/2018&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:834)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:118)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at AprenderCucumber.aEntregaSerraEfetuadaEm(AprenderCucumber.java:67)&#13;
+	at ✽.Então a entrega serra efetuada em 07/04/2018(aprender_cucumber.feature:27)&#13;
+&#13;
+</failure>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

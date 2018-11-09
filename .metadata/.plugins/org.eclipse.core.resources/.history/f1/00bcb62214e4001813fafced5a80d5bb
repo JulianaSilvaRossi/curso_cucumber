@@ -1,0 +1,15 @@
+import java.text.*;
+import java.util.Date;
+
+import cucumber.api.Transformer;
+
+public class DateConverter extends Transformer<Date>{
+
+	@Override
+	public Date transform(String arg0) {
+		DateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		Date retorno = format.parse(arg0);
+		return null;
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberCurso" tests="6" started="6" failures="0" errors="0" ignored="6">
+  <testsuite name="br.runners.Runner" time="0.0">
+    <testsuite name="Funcionalidade: Alugar Filme" time="0.0">
+      <testsuite name="Cenário: Alugar filme com sucesso" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Dado um filme com estoque de 2 unidades" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="E que o preço do aluguel seja R$ 3" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="Quando alugar" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="Então o preço do aluguel será R$ 3" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="E a data de entrega será no dia seguinte" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+        <testcase name="E o estoque do filme será 1 unidade" classname="Cenário: Alugar filme com sucesso" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

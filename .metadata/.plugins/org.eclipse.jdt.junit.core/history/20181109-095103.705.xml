@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberCurso" tests="1" started="0" failures="0" errors="0" ignored="0">
+  <testcase name="br.runners.Runner" classname="br.runners.Runner" incomplete="true"/>
+</testrun>

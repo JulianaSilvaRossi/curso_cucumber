@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="CucumberCurso" tests="21" started="21" failures="0" errors="0" ignored="6">
+  <testsuite name="Runner" time="0.073">
+    <testsuite name="Funcionalidade: Aprender Cucumber" time="0.073">
+      <testsuite name="Cenário: Deve executar especificação" time="0.004">
+        <testcase name="Dado que criei o arquivo corretamento" classname="Cenário: Deve executar especificação" time="0.002"/>
+        <testcase name="Quando executá-lo" classname="Cenário: Deve executar especificação" time="0.002"/>
+        <testcase name="Então a especificação deve finalizar com sucesso" classname="Cenário: Deve executar especificação" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contador" time="0.0">
+        <testcase name="Dado que o valor do contador é 15" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar em 3" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Então o valor do contador será 18" classname="Cenário: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve incrementar contador" time="0.0">
+        <testcase name="Dado que o valor do contador é 123" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Quando eu incrementar em 35" classname="Cenário: Deve incrementar contador" time="0.0"/>
+        <testcase name="Então o valor do contador será 158" classname="Cenário: Deve incrementar contador" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega" time="0.0">
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Quando a entega atrasar em 2 dias" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+        <testcase name="Então a entrega serra efetuada em 07/04/2018" classname="Cenário: Deve calcular atraso na entrega" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve calcular atraso na entrega na China" time="0.0">
+        <testcase name="Dado que a entrega é dia 05/04/2018" classname="Cenário: Deve calcular atraso na entrega na China" time="0.0"/>
+        <testcase name="Quando a entega atrasar em 2 meses" classname="Cenário: Deve calcular atraso na entrega na China" time="0.0"/>
+        <testcase name="Então a entrega serra efetuada em 05/06/2018" classname="Cenário: Deve calcular atraso na entrega na China" time="0.0"/>
+      </testsuite>
+      <testsuite name="Cenário: Deve criar steps genéricos para estes passos" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Dado que o ticket é AF345" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+        <testcase name="Dado que o valor da passagem é R$ 230,45" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+        <testcase name="Dado que o nome do passageiro é &quot;Fulano da Silva&quot;" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+        <testcase name="Dado que o telefone do passageiro é 9999-9999" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+        <testcase name="Quando criar os steps" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+        <testcase name="Então o teste vai funcionar" classname="Cenário: Deve criar steps genéricos para estes passos" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
